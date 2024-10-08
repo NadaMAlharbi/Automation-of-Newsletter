@@ -1,0 +1,13 @@
+flask
+requests
+langchain
+deep-translator
+python-dotenv
+beautifulsoup4
+gunicorn
+Jinja2
+Werkzeug
+MarkupSafe
+faiss-cpu
+openai
+

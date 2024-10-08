@@ -1,0 +1,42 @@
+body {
+    background-color: #e6e6e6; /* لون الخلفية */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.logo {
+    width: 150px; /* التحكم في حجم الشعار */
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.input-url {
+    width: 60%; /* عرض الحقل */
+    height: 40px; /* ارتفاع الحقل */
+    border-radius: 25px; /* الحواف المستديرة */
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.btn-check {
+    height: 40px; /* ارتفاع الزر */
+    border-radius: 25px; /* الحواف المستديرة */
+    background-color: #007bff;
+    color: white;
+    padding: 0 20px;
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
