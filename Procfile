@@ -1,1 +1,1 @@
-web: gunicorn Flaske_Automation_Interface:app
+web: gunicorn Flask_Automation_Interface:app
