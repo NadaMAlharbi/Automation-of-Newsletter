@@ -5,7 +5,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from LangChain_Automation import translate_text, model, summarization_prompt, get_documents_from_web, translate_title
 
 # Initialize the Flask web application
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 # Function to split the summary into sentences based on punctuation
 def split_summary_into_sentences(summary):
